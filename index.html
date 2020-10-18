@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,600&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/2e2d4edfeb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <form id="city-form">
+        <input type="city" id="city-input" placeholder="Enter your city">
+        <input type="submit" value="Search">
+    </form>
+    <button>
+        current location
+    </button>
+    <h1>Paris <i class="fas fa-temperature-high"> </i></h1>
+    <h2>
+
+        <i id="innertemp"> 27 </i> °C ☀️
+
+    </h2>
+    <h3>Today </h3>
+    <div class="day">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Morning</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">14°C ☀️</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Afternoon</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">24°C ☀️</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card" style="width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Evening</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">26°C ☀️</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>
+    <div class="week">
+        <div class="row">
+            <div class="col-sm-2">
+                <strong>
+                    Tomorrrow
+                    <br />
+                    Wednesday
+                    <br />
+                    Thursday
+                    <br />
+                    Friday
+                    <br />
+                    Saturday
+                </strong>
+            </div>
+            <div class="col-sm-2">
+                26°C ☀️ 16°C
+                <br />
+                22°C 🌧 12°C
+                <br />
+                18°C 🌧 9°C
+                <br />
+                16°C 🌧9°C
+                <br />
+                16°C 🌧 8°C
+            </div>
+        </div>
+    </div>
+    </p>
+    </div>
+    <script src="src/script.js"> </script>
+</body>
+
+</html>
